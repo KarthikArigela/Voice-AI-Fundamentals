@@ -6,4 +6,9 @@
 6. Fresh Perspective learning of API, JSON, generating HTTP requests using requests lib, JSON file parsing
 7. Pydantic data validation library indepth
 8. Asyncio await from scratch with examples and real world scenario code
-
+9. FastAPI Fundamentals
+   - Creating first REST API
+   - Linking up REST APIs with HTML Frontend via Jinja2 Templates
+   - URL Path Parameters with Validations and Error Handling
+   - Pydantic Schemas with Request and Response Validations
+   - Adding a Database with SQLAlchemy Models and relationships
