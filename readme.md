@@ -12,3 +12,4 @@
    - URL Path Parameters with Validations and Error Handling
    - Pydantic Schemas with Request and Response Validations
    - Adding a Database with SQLAlchemy Models and relationships
+   - Complete CRUD Operations - GET, POST, PUT, PATCH, DELETE 
