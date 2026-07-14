@@ -13,3 +13,4 @@
    - Pydantic Schemas with Request and Response Validations
    - Adding a Database with SQLAlchemy Models and relationships
    - Complete CRUD Operations - GET, POST, PUT, PATCH, DELETE 
+   - Sync vs Async & Converting Sync App to Async
