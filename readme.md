@@ -14,3 +14,4 @@
    - Adding a Database with SQLAlchemy Models and relationships
    - Complete CRUD Operations - GET, POST, PUT, PATCH, DELETE 
    - Sync vs Async & Converting Sync App to Async
+   - Organizing routes into Modules with APIRouter
