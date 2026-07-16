@@ -38,7 +38,7 @@ app.include_router(posts.router, prefix="/api/posts", tags=["posts"])
 @app.get("/", include_in_schema=False, name="root")
 @app.get("/posts", name="posts")
 async def root(request: Request, db: Annotated[AsyncSession, Depends(get_db)]):
-    result = await db.execute(select(models.Post).options(selectinload(models.Post.author)))
+    result = await db.execute(select(models.Post).options(selectinload(models.Post.author)).order_by(models.Post.date_posted.desc()))
     posts = result.scalars().all()
     return templates.TemplateResponse(
         request,
@@ -65,7 +65,7 @@ async def post_page(request: Request, post_id: int, db: Annotated[AsyncSession, 
 async def user_posts_page(
     request: Request, user_id: int, db: Annotated[AsyncSession, Depends(get_db)]
 ):
-    result = await db.execute(select(models.User).where(models.User.id == user_id))
+    result = await db.execute(select(models.User).where(models.User.id == user_id).order_by(models.Post.date_posted.desc()))
     user = result.scalars().first()
     if not user:
         raise HTTPException(
