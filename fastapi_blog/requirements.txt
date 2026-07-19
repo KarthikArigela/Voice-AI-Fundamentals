@@ -1,0 +1,9 @@
+fastapi[standard]>=0.139.0
+sqlalchemy>=2.0.0
+asyncpg
+aiosqlite
+pwdlib[argon2]
+pyjwt
+pydantic-settings
+jinja2
+email-validator

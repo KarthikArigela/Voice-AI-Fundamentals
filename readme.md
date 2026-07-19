@@ -6,7 +6,7 @@
 6. Fresh Perspective learning of API, JSON, generating HTTP requests using requests lib, JSON file parsing
 7. Pydantic data validation library indepth
 8. Asyncio await from scratch with examples and real world scenario code
-9. FastAPI Fundamentals with Blog App Demo Project
+9. FastAPI Fundamentals with Blog App Demo Project end to end
    - Creating first REST API
    - Linking up REST APIs with HTML Frontend via Jinja2 Templates
    - URL Path Parameters with Validations and Error Handling
@@ -18,3 +18,5 @@
    - Connecting JS to APIs with Frontend Forms
    - User Registration & Login with JWT Authentication
    - Protecing Routes & Verifying Current User with Authorization
+   - Migrating to Supabase DB 
+   - Vercel Deployment for Public Use
