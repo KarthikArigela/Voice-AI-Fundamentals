@@ -7,5 +7,6 @@ class Settings(BaseSettings):
     secret_key: SecretStr
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 30
+    database_url: str = "sqlite+aiosqlite:///./blog.db"
 
 settings = Settings()
