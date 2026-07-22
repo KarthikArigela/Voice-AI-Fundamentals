@@ -24,3 +24,40 @@ The process of artificially generating human-like speech, often through TTS syst
 AI systems that simulate human-like conversations through speech or text. Includes chatbots, virtual assistants, and customer service tools.
 ## Speech Recognition
 The ability of machines to process spoken input, often used interchangeably with ASR, which stands for Automatic Speech Recognition.
+
+
+
+## Provider Signups Created
+
+### Infra
+- Livekit
+- Pipekit
+- Daily/Pipecat
+
+### Models
+- AssemblyAI
+- Cartesia
+- SpeechifyAI
+- Speechmatics
+- Deepgram
+- ElevenLabs
+- Rime
+- Inworld
+- Agora
+- Sarvam
+- Smallest
+- Gladia
+- OpenAI
+- Google
+- Anthropic
+- Openrouter
+
+### Orchestrators
+- Vapi
+- Retell
+- Bolna
+
+### Telephony
+- Vobiz
+- Twillio
+- Exotel
